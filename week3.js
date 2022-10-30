@@ -13,10 +13,7 @@ console.log(ages[ages.length - 1] - ages[0]);
 
 // 2.	Create an array called names that contains the following values: ‘Sam’, ‘Tommy’, ‘Tim’, ‘Sally’, ‘Buck’, ‘Bob’.
 // 2a.	Use a loop to iterate through the array and calculate the average number of letters per name. 
-
 // 2b.	Use a loop to iterate through the array again and concatenate all the names together, separated by spaces. 
-
-
 // 3.	How do you access the last element of any array?
 
 // 4.	How do you access the first element of any array?
