@@ -32,30 +32,38 @@ for(i = 0; i < names.length; i++){
 // 4.	How do you access the first element of any array?
 // .shift
 
-// 5.	Create a new array called nameLengths. Write a loop to iterate over the previously created names array and add the length of each name to the nameLengths array.
+// 5.	Create a new array called nameLengths. Write a loop to iterate over the previously created names array and add the length of each 
+// name to the nameLengths array.
 // For example:
 // namesArray = ["Kelly", "Sam", "Kate"] //given this array
 // nameLengths = [5, 3, 4] //create this new array
 var namesArray = ["Kelly", "Sam", "Kate"]
+var nameLengths = [];
 for(i = 0; i <names.length; i++){
-        let nameLengths = names.concat(namesArray);
-        console.log(nameLengths);
-    }
+    console.log(names[i].length);
+    nameLengths.push(names[i].length);
+        // let nameLengths = names.concat(namesArray);
+        // console.log(nameLengths);
+    }console.log(nameLengths);
 
 // IDK
 
 // // 6.	Write a loop to iterate over the nameLengths array and calculate the sum of all the elements in the array. 
-// for(i = 0; i <nameLengths.length; i++){
-//     console.log([i]);
-// }
+var sum2 = 0;
+for(i = 0; i <nameLengths.length; i++){
+        sum2 = sum2 + nameLengths[i];
+        console.log(sum2);          
+}
 // // IDK
 
 // // 7.	Write a function that takes two parameters, word and n, as arguments and returns the word concatenated to itself n number of times. 
 // // // (i.e. if I pass in ‘Hello’ and 3, I would expect the function to return ‘HelloHelloHello’).
-// let aFunction = (word, n) => {
-//     word * n;
-//     return (word, 3);
-// } 
+let aFunction = (word, n) => {
+        var concat = word.repeat(n);
+        console.log(concat);
+} 
+aFunction("Hello", 10);
+
 
 // IDK
 
